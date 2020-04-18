@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: HEROKU-KEY-TESTE
+    secure: $TESTEkey
   app: devopslabs-helloworld-3
